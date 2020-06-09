@@ -24,10 +24,10 @@ function anagrams(stringA, stringB) {
     console.table(mapa); 
     console.table(mapb);
  
-    if(lena>=lenb){
+    if(lena===lenb){
         result = compareChapMap(mapa,mapb);
     }else{
-        result = compareChapMap(mapb,mapa);
+        result = false;
     } 
     console.warn('res',result);
     return result ;
