@@ -8,6 +8,7 @@
     "dev": "nodemon maxchar/index.js",
     "dev": "nodemon fizzbuzz/index.js",
     "dev": "nodemon chunk/index.js",
+    "dev": "nodemon anagrams/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "jest": {
