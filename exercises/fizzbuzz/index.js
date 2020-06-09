@@ -12,6 +12,22 @@
 //   4
 //   buzz
 
-function fizzBuzz(n) {}
-
+function fizzBuzz(x) {
+    // debugger; 
+    console.warn('array length',x);
+    for(let n = 1; n<=x; n++){
+        if(n%3 ==0 && n%5 === 0 ){
+            console.warn('fizzbuzz');
+        }else if(n%3 ==0 ){
+            console.warn('fizz');
+        }else if(n%5 ==0 ){
+            console.warn('buzz'); 
+        }else{
+            console.warn(n);
+        } 
+    }
+    console.warn('end'  ); 
+}
+fizzBuzz(15);   
 module.exports = fizzBuzz;
+ 

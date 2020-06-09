@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon reverseint/index.js",
     "dev": "nodemon maxchar/index.js",
+    "dev": "nodemon fizzbuzz/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "jest": {
