@@ -30,7 +30,7 @@ function steps(n, row = 0, stair = '') {
   const add = stair.length <= row ? '#' : ' ';
   steps(n, row, stair + add);
 }
-
+// steps(5);
 module.exports = steps;
 
 // function steps(n) {
